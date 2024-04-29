@@ -42,6 +42,7 @@ Firewall işlemlerinizi PowerShell kullanarak yapmak için;
 Windows PowerShell açınız.
 
 `Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False` (firewall devre dışı) 
+
 `Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True` (firewall aktif)
 
 PowerShell üzerinden detaylı firewall kuralları tanımlamak için aşağıdaki komutları kullanabilirsiniz.
