@@ -104,4 +104,5 @@ Güvenlik duvarını netsh komutları kullanılarak kapatmak  ve açmak için:
 CMD komut satırını açınız. 
 
 `netsh advfirewall set allprofiles state off` (firewall devre dışı)
+
 `netsh advfirewall set allprofiles state on`  (firewall aktif)
